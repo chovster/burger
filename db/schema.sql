@@ -5,7 +5,7 @@ create table burgers
 (
     id integer not null auto_increment, 
     burger_name varchar (255) not null, 
-    devour boolean DEFAULT false, 
+    devoured boolean DEFAULT false, 
     primary key (id)
 );
 
